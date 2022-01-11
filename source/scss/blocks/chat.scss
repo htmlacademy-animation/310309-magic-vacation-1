@@ -65,6 +65,8 @@
   text-transform: uppercase;
   font-size: 2.4rem;
   line-height: 1.2;
+  animation: fadein 1000ms forwards;
+  animation-delay: 100ms;
 
   @media (min-width: $stop-scaling) {
     margin-bottom: 20px;

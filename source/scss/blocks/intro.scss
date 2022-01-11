@@ -32,6 +32,7 @@
   font-size: 12rem;
   line-height: 0.906;
   letter-spacing: -0.04em;
+  animation: fadeintoleft 1000ms forwards;
 
   @media (min-width: $stop-scaling) {
     max-width: 990px;
@@ -93,6 +94,9 @@
   text-transform: uppercase;
   font-size: 2.4rem;
   line-height: 1.27;
+  opacity: 0;
+  animation: fadein 1000ms forwards;
+  animation-delay: 500ms;
 
   @media (min-width: $stop-scaling) {
     width: 509px;
